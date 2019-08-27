@@ -1,6 +1,5 @@
 import os
 from pyexcel_xlsx import get_data as get_data_xlsx
-import pyexcel_xls
 
 
 def getcolnum(colname):

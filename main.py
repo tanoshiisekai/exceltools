@@ -37,7 +37,6 @@ def summary(data):
     teacherdict = {}
     for index, val in enumerate(data):
         ksdata = val["已排课科目"]
-        print(ksdata)
         for ks in ksdata:
             if ks[1] in teacherdict.keys():
                 teacherdict[ks[1]] = int(teacherdict[ks[1]]) + int(ks[2])
